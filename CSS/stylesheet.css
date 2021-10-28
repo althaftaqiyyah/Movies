@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins";
+    
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url(https://theboar.org/wp-content/uploads/2020/03/Disney-background.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.header-right {
+    padding-right: 50px;
+}
+.header-left h1 {
+    color: white;
+    padding-left: 50px;
+}
+
+form img {
+    width: 100px;
+}
+.search {
+    padding:8px 15px;
+    background:whitesmoke;
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left: -8px;
+    border:2px solid #3240c7;
+    background-color:#3728bd;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+    cursor: pointer;
+}
+.image img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+#content {
+    padding: 20px;
+    background-color: rgb(247, 247, 102);
+}
+.film {
+    display: flex;
+    padding: 20px;
+}
+.number h2{
+    margin: 0 20px;
+}
+.rating {
+    margin: 0 20px;
+    line-height: 25px;
+}
+.rating h2 a {
+    text-decoration: black;
+    color: black;
+}
+.greetings p{
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+footer {
+    padding: 20px;
+    background-color: rgb(1, 1, 88);
+}
+.greetings{
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    #header {
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .header-right {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding-right: 0px
+    }
+    .header-right form {
+        padding-right: 0px;
+    }
+    .header-left {
+        display: flex;
+        justify-content: center;
+    }
+    .header-left h1{
+        padding-left: 0px;
+    }
+}
+
